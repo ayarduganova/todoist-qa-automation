@@ -1,0 +1,36 @@
+# Compiled classes
+target/
+*.class
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Maven
+.mvn/wrapper/maven-wrapper.jar
+
+# Sensitive test data / local config
+src/test/resources/Settings.xml
+src/test/resources/addTasks.xml
+src/test/resources/delTasks.xml
+
+*.exe
+chromedriver*
+
+# Test reports / screenshots
+test-output/
+screenshots/
